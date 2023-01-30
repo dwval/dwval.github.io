@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightsteelblue;
+    font-family:'Times New Roman', Times, serif;
+}
+   
+#conteiner{
+    /*width: 70%;*/
+    width: 1100px;
+    margin: 0px auto;
+}
+ 
+header{
+    background-color: rgb(28, 39, 87);
+    color: aliceblue;
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+
+#contenido{
+    float: left;
+    width:calc(75% - 40px) ;
+    min-height: 800px;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+/*ARTICULOS*/
+
+.article{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(49, 47, 83);
+    padding-bottom: 10px
+}
+
+/*.article:first-child{
+    border-bottom: 1px solid rgb(49, 47, 83);
+}*/
+
+.article h2{
+    padding: 5px;
+    margin: 5px;
+}
+.article p{
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.article ul li{
+    padding:5px;
+    margin: 5px;
+    list-style:none;
+}
+
+.barraidiomas{
+    padding: 5px;
+    margin: 5px;
+    border-top: 1px solid rgb(49, 47, 83);
+}
+
+
+aside{
+    float: left;
+    width:calc(25% - 20px);
+    background-color: rgb(63, 70, 100);
+    min-height: 1000px;
+    padding: 10px;
+}
+
+.fotoperfil{
+    position: relative;
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+   
+#Datos{
+  padding:5px;
+  color: aliceblue;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+#Datos h3{
+    margin: 5px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+#estudios{
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#estudios h3{
+    padding: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+#Informacion{
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#Informacion p{
+    padding: 5px;
+    margin-top: 5px;
+}
+#Informacion h3{
+    letter-spacing: 2px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#Datos ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+#Informacion ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    color: aliceblue;
+}
+#estudios ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    color:aliceblue;
+}
+
+.barraidiomas .porcentaje{
+position: relative;
+width: 100%;
+height: 6px;
+background-color: darkslategray;
+display: block;
+margin-top: 5px;
+}
+.barraidiomas .porcentaje div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: dodgerblue;
+}
+.printbutton {
+    cursor: pointer;
+}
